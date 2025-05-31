@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Page App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto py-4 px-6 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-semibold text-gray-800">Multiple Page App</a>
+            <div class="space-x-4">
+                <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-gray-800">About</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto mt-8 px-6">
+        <section class="mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">Welcome to the Home Page</h1>
+            <p class="text-gray-700 leading-relaxed">
+                This is the home page of our multiple page application. Explore the different sections to learn more.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2">Featured Product</h2>
+                <p class="text-gray-600 leading-relaxed mb-4">Check out our featured product below.</p>
+                <!-- Insert your image -->
+                <img src="assets/productImage.jpg" alt="Product Image" class="rounded-md mb-4">
+                <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-2">About Us</h2>
+                <p class="text-gray-600 leading-relaxed mb-4">Learn more about our company and mission.</p>
+                <a href="about.html" class="text-blue-500 hover:text-blue-700 font-bold">Read More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-200 mt-8 py-4">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600">© 2024 Multiple Page App. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
